@@ -1,37 +1,36 @@
 import {
 	FiGithub,
-	FiTwitter,
+	FiInstagram,
 	FiLinkedin,
-	FiGlobe,
-	FiYoutube,
 } from 'react-icons/fi';
+import { SiCodewars, SiLeetcode } from "react-icons/si"
 import AppFooterCopyright from './AppFooterCopyright';
 
 const socialLinks = [
 	{
 		id: 1,
-		icon: <FiGlobe />,
-		url: 'https://www.stoman.me/',
+		icon: <FiGithub />,
+		url: 'https://github.com/ajmal1722/',
 	},
 	{
 		id: 2,
-		icon: <FiGithub />,
-		url: 'https://github.com/realstoman',
+		icon: <FiInstagram />,
+		url: 'https://www.instagram.com/ajmal1.__/',
 	},
 	{
 		id: 3,
-		icon: <FiTwitter />,
-		url: 'https://twitter.com/realstoman',
+		icon: <FiLinkedin />,
+		url: 'https://www.linkedin.com/in/muhammed-ajmal-17-p/',
 	},
 	{
 		id: 4,
-		icon: <FiLinkedin />,
-		url: 'https://www.linkedin.com/in/realstoman',
+		icon: <SiCodewars />,
+		url: 'https://www.codewars.com/users/ajmal1722',
 	},
 	{
 		id: 5,
-		icon: <FiYoutube />,
-		url: 'https://www.youtube.com/c/realstoman',
+		icon: <SiLeetcode />,
+		url: 'https://leetcode.com/u/muhammed_ajmal/',
 	},
 ];
 
