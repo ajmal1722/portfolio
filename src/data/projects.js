@@ -34,20 +34,20 @@ export const projectsData = [
 	},
 	{
 		id: 4,
-		title: 'React Cart Manager',
-		category: 'React App',
+		title: 'Movie Api',
+		category: 'Backend Api',
 		img: movieApi,
 	},
 	{
 		id: 5,
 		title: 'Express CRUD App',
-		category: 'Backend Web App',
+		category: 'Mini Project',
 		img: expressCrud,
 	},
 	{
 		id: 6,
 		title: 'MongoDB CRUD App',
-		category: 'Backend Web App',
+		category: 'Mini Project',
 		img: MongoDBCrud,
 	},
 	{
