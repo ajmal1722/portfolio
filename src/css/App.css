@@ -232,3 +232,11 @@ body {
 		opacity: 0.5;
 	}
 }
+
+
+/* custom */
+.circular-image {
+	border-radius: 50%; /* Makes the image circular */
+	object-fit: cover;    /* Set the height to the desired size */
+	max-height: 90vh;
+  }
