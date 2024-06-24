@@ -13,7 +13,7 @@ const AppBanner = () => {
 	useEffect(() => {
 		const interval = setInterval(() => {
 		  setIsCircular(prev => !prev);
-		}, 4000); // Toggle every 2 seconds
+		}, 4000);
 	
 		// Clean up the interval on component unmount
 		return () => clearInterval(interval);

@@ -239,4 +239,15 @@ body {
 	/* border-radius: 5%; Makes the image circular */
 	object-fit: cover;    /* Set the height to the desired size */
 	max-height: 80vh;
-  }
+}
+
+.logo-button {
+	background-color: #f6f7f8;
+	color: #0d2438;
+	font-weight: bold;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.logo-span {
+	margin-left: 6px;
+}
