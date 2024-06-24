@@ -238,5 +238,5 @@ body {
 .circular-image {
 	border-radius: 50%; /* Makes the image circular */
 	object-fit: cover;    /* Set the height to the desired size */
-	max-height: 90vh;
+	max-height: 80vh;
   }
