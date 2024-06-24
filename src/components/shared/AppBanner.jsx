@@ -1,11 +1,11 @@
-import useThemeSwitcher from '../../hooks/useThemeSwitcher';
+// import useThemeSwitcher from '../../hooks/useThemeSwitcher';
 import { FiArrowDownCircle } from 'react-icons/fi';
 import developer from '../../images/developer.jpg';
 import { motion } from 'framer-motion';
 import { useState, useEffect } from 'react';
 
 const AppBanner = () => {
-	const [activeTheme] = useThemeSwitcher();
+	// const [activeTheme] = useThemeSwitcher();
 
 	const [isCircular, setIsCircular] = useState(false);
 
