@@ -236,7 +236,7 @@ body {
 
 /* custom */
 .circular-image {
-	border-radius: 50%; /* Makes the image circular */
+	/* border-radius: 5%; Makes the image circular */
 	object-fit: cover;    /* Set the height to the desired size */
 	max-height: 80vh;
   }

@@ -34,7 +34,7 @@ export const singleProjectData = {
 		{
 			id: 3,
 			title: 'Kabul Project Management UI',
-			img: Image3,
+			img: '',
 		},
 	],
 	ProjectInfo: {

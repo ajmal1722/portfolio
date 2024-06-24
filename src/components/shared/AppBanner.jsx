@@ -1,11 +1,23 @@
 import useThemeSwitcher from '../../hooks/useThemeSwitcher';
 import { FiArrowDownCircle } from 'react-icons/fi';
-// import developerLight from '../../images/profileImage.jpg';
 import developer from '../../images/developer.jpg';
 import { motion } from 'framer-motion';
+import { useState, useEffect } from 'react';
 
 const AppBanner = () => {
 	const [activeTheme] = useThemeSwitcher();
+
+	const [isCircular, setIsCircular] = useState(false);
+
+	// Use useEffect to set isCircular to true when the component mounts
+	useEffect(() => {
+		const interval = setInterval(() => {
+		  setIsCircular(prev => !prev);
+		}, 4000); // Toggle every 2 seconds
+	
+		// Clean up the interval on component unmount
+		return () => clearInterval(interval);
+	  }, []);
 
 	return (
 		<motion.section
@@ -69,10 +81,13 @@ const AppBanner = () => {
 				className="w-full sm:w-2/3 text-right float-right mt-8 sm:mt-0"
 			>
 				<div className='bg-red-600 flex justify-center'>
-					<img
+					<motion.img
 						className='circular-image'
 						src={developer}
 						alt="Developer"
+						initial={{ borderRadius: '2%'}}
+						animate={{ borderRadius: isCircular ? '50%' : '0%' }}
+						transition={{ duration: 4 }}
 					/>
 				</div>
 			</motion.div>
