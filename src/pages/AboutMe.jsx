@@ -31,7 +31,8 @@ const About = () => {
 				exit={{ opacity: 0 }}
 				className="container mx-auto"
 			>
-				<AboutClients />
+				<AboutClients title={'Skills'} />
+				<AboutClients title={'Tools'} />
 			</motion.div>
 		</AboutMeProvider>
 	);

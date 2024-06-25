@@ -8,6 +8,7 @@ import { SiTailwindcss } from "react-icons/si";
 // import { CiMail } from "react-icons/ci";
 
 export const clientsHeading = 'Skills';
+export const familiarTools = 'Tools'
 
 export const clientsData = [
 	{ id: 1, name: "HTML", icon: FaHtml5, color: "#E34F26" },
@@ -25,4 +26,21 @@ export const clientsData = [
 	// { id: 13, name: "EJS", icon: SiEjs, color: "#A91E50" },
 	{ id: 14, name: "Media Queries", icon: SiMongodb, color: "#47A248" },
 	{ id: 15, name: "Chart.js", icon: SiChartdotjs, color: "#FF6384" },
+];
+
+export const tools = [
+	{ id: 16, name: "JWT", icon: SiJsonwebtokens, color: "#000000" },
+	// { id: 17, name: "Axios", icon: SiAxios, color: "#5A29E4" },
+	{ id: 18, name: "Postman", icon: SiPostman, color: "#FF6C37" },
+	{ id: 19, name: "AWS", icon: FaAws, color: "#FF9900" },
+	// { id: 20, name: "Amazon Route 53", icon: SiAmazonroute53, color: "#232F3E" },
+	// { id: 21, name: "Figma", icon: FiFigma, color: "#F24E1E" },
+	{ id: 22, name: "Razorpay", icon: SiRazorpay, color: "#02042B" },
+	{ id: 23, name: "Handlebars", icon: SiHandlebarsdotjs, color: "#000000" },
+	{ id: 24, name: "Git", icon: FaGitAlt, color: "#F05032" },
+	{ id: 25, name: "GitHub", icon: FaGithub, color: "#181717" },
+	{ id: 26, name: "Multer", icon: SiMongodb, color: "#47A248" },
+	// { id: 27, name: "Nodemailer", icon: CiMail, color: "#0073AA" },
+	{ id: 28, name: "Nginx", icon: SiNginx, color: "#009639" },
+	{ id: 29, name: "Vercel", icon: SiVercel, color: "#000000" },
 ];
