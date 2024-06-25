@@ -1,11 +1,12 @@
-const AboutClientSingle = ({ title, image }) => {
+const AboutClientSingle = ({ title, Icon, color }) => {
 	return (
 		<>
-			<img
-				src={image}
-				className="w-64 py-5 px-10 border bg-secondary-light border-ternary-light dark:border-ternary-dark shadow-sm rounded-lg mb-8 cursor-pointer"
-				alt={title}
-			/>
+			<div className="bg-primary-light rounded-lg p-2 text-center">
+				<div className="flex justify-center">
+				<	Icon style={{color: color, fontSize: '3rem'}} /> 
+				</div>
+				<h1 className="">{title}</h1>
+			</div>
 		</>
 	);
 };
