@@ -1,9 +1,8 @@
 import { useContext } from 'react';
-import AboutMeContext from '../../context/AboutMeContext';
+// import AboutMeContext from '../../context/AboutMeContext';
 import AboutClientSingle from './AboutClientSingle';
 
-const AboutClients = ({ title }) => {
-	const { clientsData, clientsHeading } = useContext(AboutMeContext);
+const AboutClients = ({ title, data }) => {
 
 	return (
 		<div className="mt-10 sm:mt-20">
@@ -11,7 +10,7 @@ const AboutClients = ({ title }) => {
 				{title}
 			</p>
 			<div className="grid grid-cols-2 sm:grid-cols-4 mt-10 sm:mt-14 gap-2">
-				{clientsData.map((client) => (
+				{data.map((client) => (
 					<AboutClientSingle
 						key={client.id}
 						title={client.name}
