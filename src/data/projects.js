@@ -19,42 +19,56 @@ export const projectsData = [
 			publishDate: 'Jul 26, 2021',
 			tags: 'UI / Frontend',
 		},
-		gitHubUrl: ''
+		techs: [''],
+		link: 'https://trynutritions.shop/',
+		gitHubUrl: 'https://github.com/ajmal1722/TryNutritions',
 	},
 	{
 		id: 2,
 		title: 'Kanban App',
 		category: 'React App',
 		img: kanbanApp,
+		link: 'https://trynutritions.shop/',
+		gitHubUrl: 'https://github.com/ajmal1722/TryNutritions'
 	},
 	{
 		id: 3,
 		title: 'Seminar Hall Seat Booking App',
 		category: 'React App',
 		img: SeminarHallBooking,
+		link: 'https://trynutritions.shop/',
+		gitHubUrl: 'https://github.com/ajmal1722/TryNutritions'
 	},
 	{
 		id: 4,
 		title: 'Movie Api',
 		category: 'Backend Api',
 		img: movieApi,
+		link: 'https://trynutritions.shop/',
+		gitHubUrl: 'https://github.com/ajmal1722/TryNutritions'
 	},
 	{
 		id: 5,
 		title: 'Express CRUD App',
 		category: 'Mini Project',
 		img: expressCrud,
+		link: 'https://trynutritions.shop/',
+		gitHubUrl: 'https://github.com/ajmal1722/TryNutritions'
 	},
 	{
 		id: 6,
 		title: 'MongoDB CRUD App',
 		category: 'Mini Project',
 		img: MongoDBCrud,
+		link: 'https://trynutritions.shop/',
+		gitHubUrl: 'https://github.com/ajmal1722/TryNutritions'
 	},
 	{
 		id: 7,
 		title: 'React Cart Manager',
 		category: 'React App',
 		img: cartManager,
+		link: 'https://trynutritions.shop/',
+		gitHubUrl: 'https://github.com/ajmal1722/TryNutritions'
 	},
 ];
