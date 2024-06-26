@@ -12,8 +12,8 @@ import {
 	FiLinkedin,
 	FiTwitter,
 	FiYoutube,
-	FiGithub,
-	FiLink
+	// FiGithub,
+	// FiLink
 } from 'react-icons/fi';
 
 export const singleProjectData = {

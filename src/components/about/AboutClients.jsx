@@ -1,4 +1,3 @@
-import { useContext } from 'react';
 // import AboutMeContext from '../../context/AboutMeContext';
 import AboutClientSingle from './AboutClientSingle';
 

@@ -1,7 +1,7 @@
 // Import Icons
 import { FaHtml5, FaCss3Alt, FaNode, FaReact, FaAws, FaGitAlt, FaGithub,FaFigma } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
-import { SiExpress, SiMongodb, SiJsonwebtokens, SiAxios, SiPostman, SiAmazonroute53, SiRazorpay, SiHandlebarsdotjs, SiRedux, SiReduxsaga, SiBootstrap, SiEjs, SiChartdotjs, SiNginx, SiVercel, } from "react-icons/si";
+import { SiExpress, SiMongodb, SiJsonwebtokens, SiPostman, SiRazorpay, SiHandlebarsdotjs, SiRedux, SiReduxsaga, SiBootstrap, SiChartdotjs, SiNginx, SiVercel, } from "react-icons/si";
 import { SiTailwindcss } from "react-icons/si";
 import { MdMailOutline } from "react-icons/md";
 // import { FiFigma } from "react-icons/fi";
