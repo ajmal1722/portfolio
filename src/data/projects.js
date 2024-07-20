@@ -29,46 +29,46 @@ export const projectsData = [
 		category: 'React App',
 		img: kanbanApp,
 		link: 'https://trynutritions.shop/',
-		gitHubUrl: 'https://github.com/ajmal1722/TryNutritions'
+		gitHubUrl: 'https://github.com/ajmal1722/react-kanban-app'
 	},
 	{
 		id: 3,
 		title: 'Seminar Hall Seat Booking App',
 		category: 'React App',
 		img: SeminarHallBooking,
-		link: 'https://trynutritions.shop/',
-		gitHubUrl: 'https://github.com/ajmal1722/TryNutritions'
+		link: 'https://react-seminar-hall-booking-app.vercel.app/',
+		gitHubUrl: 'https://github.com/ajmal1722/react-seminar-hall-booking-app'
 	},
 	{
 		id: 4,
 		title: 'Movie Api',
 		category: 'Backend Api',
 		img: movieApi,
-		link: 'https://trynutritions.shop/',
-		gitHubUrl: 'https://github.com/ajmal1722/TryNutritions'
+		link: '',
+		gitHubUrl: 'https://github.com/ajmal1722/api-for-movies'
 	},
 	{
 		id: 5,
 		title: 'Express CRUD App',
 		category: 'Mini Project',
 		img: expressCrud,
-		link: 'https://trynutritions.shop/',
-		gitHubUrl: 'https://github.com/ajmal1722/TryNutritions'
+		link: '',
+		gitHubUrl: 'https://github.com/ajmal1722/express-CRUD-App'
 	},
 	{
 		id: 6,
 		title: 'MongoDB CRUD App',
 		category: 'Mini Project',
 		img: MongoDBCrud,
-		link: 'https://trynutritions.shop/',
-		gitHubUrl: 'https://github.com/ajmal1722/TryNutritions'
+		link: '',
+		gitHubUrl: 'https://github.com/ajmal1722/mongoDB-logIn'
 	},
 	{
 		id: 7,
 		title: 'React Cart Manager',
 		category: 'React App',
 		img: cartManager,
-		link: 'https://trynutritions.shop/',
-		gitHubUrl: 'https://github.com/ajmal1722/TryNutritions'
+		link: '',
+		gitHubUrl: 'https://github.com/ajmal1722/react-cart-manager'
 	},
 ];
