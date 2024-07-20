@@ -1,8 +1,8 @@
 import { motion } from 'framer-motion';
 import { Link, useParams } from 'react-router-dom';
 
-const ProjectSingle = ({ title, category, image, id }) => {
-	
+const ProjectSingle = ({ title, category, image, id, gitHubUrl }) => {
+
 	return (
 		<motion.div
 			initial={{ opacity: 0 }}
@@ -13,7 +13,7 @@ const ProjectSingle = ({ title, category, image, id }) => {
 				delay: 0.15,
 			}}
 		>
-			<Link to={`/projects/single-project/${id}`} aria-label="Single Project">
+			<a href={gitHubUrl} target="_blank" rel="noopener noreferrer" aria-label="Single Project">
 				<div className="rounded-xl shadow-lg hover:shadow-xl cursor-pointer mb-10 sm:mb-0 bg-secondary-light dark:bg-ternary-dark">
 					<div>
 						<img
@@ -31,7 +31,8 @@ const ProjectSingle = ({ title, category, image, id }) => {
 						</span>
 					</div>
 				</div>
-			</Link>
+			</a>
+
 		</motion.div>
 	);
 };
