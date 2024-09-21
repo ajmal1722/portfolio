@@ -24,6 +24,14 @@ export const projectsData = [
 		gitHubUrl: 'https://github.com/ajmal1722/TryNutritions',
 	},
 	{
+		id: 8,
+		title: 'Book Keeping service Api',
+		category: 'Backend Api',
+		img: movieApi,
+		link: '',
+		gitHubUrl: 'https://github.com/ajmal1722/portfolio'
+	},
+	{
 		id: 2,
 		title: 'Kanban App',
 		category: 'React App',
