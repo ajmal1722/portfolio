@@ -29,7 +29,7 @@ export const projectsData = [
 		category: 'Backend Api',
 		img: movieApi,
 		link: '',
-		gitHubUrl: 'https://github.com/ajmal1722/portfolio'
+		gitHubUrl: 'https://github.com/ajmal1722/book-keeping-service-api'
 	},
 	{
 		id: 2,
